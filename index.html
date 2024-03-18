@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="scripts/test.js"></script>
+    <title>Conversion de devises</title>
+</head>
+<body>
+    <header>
+        <div class="" id="principal">
+            <h1>
+                Conversion de devises monétaires 
+            </h1>
+        </div>
+    </header>
+
+    <main>
+        <div>
+            <div class="form_conv">
+                <form action="">
+                    <!-- Deuxième Champ de saisie avec id "amount" pour le montant à convertir -->
+                    <div class="row_fields">
+                        <div>
+                            <select id="currencySelect1" class="currency-select">
+                                <option value="" disabled selected>Sélectionnez une devise</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="number" id="amount" class="input-number" placeholder="Montant à convertir">
+                        </div>
+                    </div>
+
+                    <!-- Champ pour afficher le résultat de la conversion -->
+                    <div class="row_fields">
+                        <div>
+                            <select id="currencySelect2" class="currency-select">
+                                <option value="" disabled selected>Sélectionnez une devise cible</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="number" id="result" readonly placeholder="Résultat de la conversion">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

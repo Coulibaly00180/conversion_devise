@@ -1,0 +1,30 @@
+/**
+ * Reset
+ */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#principal{
+    margin: 10px;
+    border: 1px solid #000; 
+}
+
+.row_fields{
+    display: flex;
+}
+
+.form_conv{
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
